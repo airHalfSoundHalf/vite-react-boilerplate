@@ -1,71 +1,8 @@
-# Very Fast React Boilerplate
+# Vite-React-Boilerplate
 
-<p align="center">
+"수정 없이 반복적으로 사용되는 코드" 보일러플레이트 === 템플릿 ?
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=61DAFB&height=300&section=header&text=Very%20Fast%20React%20Boilerplate&fontSize=60&animation=fadeIn&fontAlignY=38&descAlignY=51&descAlign=62&fontColor=F5F8FA)
-
-</p>
-
-[![Github Downloads](https://img.shields.io/npm/dt/react-vite-ts-boilerplate)](https://www.npmjs.com/package/react-vite-ts-boilerplate)
-[![npm version](https://badge.fury.io/js/react-vite-ts-boilerplate.svg)](https://www.npmjs.com/package/react-vite-ts-boilerplate)
-
-## Getting started
-
-1. Gets the git project. (Auto run installation)
-
-```
-  npx react-vite-ts-boilerplate my-app
-```
-
-2. Start the dev server. And open http://localhost:3000 in your browser.
-
-```
-  yarn dev
-```
-
-3. Build your product.
-
-```
-  yarn prod
-```
-
-## Dependencies
-
-- React
-- Vite
-- Typescript 
-- eslint
-- Prettier
-
-## Performance
-
-- fast dev server
-
-```bash
-$ yarn dev
-yarn run v1.22.17
-$ vite
-                                                                                                                                                                                           16:58:10
-  vite v2.8.6 dev server running at:
-
-  > Local: http://localhost:3000/                                                                                                                                                          16:58:10
-  > Network: use --host to expose                                                                                                                                                          16:58:10
-                                                                                                                                                                                           16:58:10
-  ready in 776ms.
-```
-
-- fast build speed
-
-```bash
-$ yarn prod               
-yarn run v1.22.17
-$ vite build
-vite v2.8.6 building for production...                                                                                                                                                                                                                         21:57:44
-✓ 37 modules transformed.                                                                                                                                                                                                                                      21:57:45
-dist/public/index.html           0.55 KiB                                                                                                                                                                                                                      21:57:45
-dist/assets/index.f377a083.js    2.09 KiB / gzip: 1.13 KiB                                                                                                                                                                                                     21:57:45
-dist/assets/vendor.5ad169fc.js   136.42 KiB / gzip: 44.42 KiB                                                                                                                                                                                                  21:57:45
-✨  Done in 2.22s.
-```
-
-- Type checking by [vite-plugin-checker](https://www.npmjs.com/package/vite-plugin-checker)
+CRA는 모든 경우를 고려하여 모듈을 다 때려넣음으로 쓸데없이 무거운거에 반해, 보일러플레이트는  
+필요한 코드와 설정들만 골라 바로 프로젝트 할 수 있게 설정이 된 리액트킷이다.  
+하지만, 자신만의 최적화된 보일러플레이트를 만드는게 아닌 이상, 필요한 거만 가져와 셋팅 했기 때문에  
+버그들이 갑자기 튀어나올 수 있다는 염려가 있어, 복잡한 설정해야 할 경우에는 비추다.  
